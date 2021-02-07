@@ -28,6 +28,7 @@ class _UserImagePickerState extends State<UserImagePicker> {
         print('No image selected.');
       }
     });
+    print('Image selected $_image');
     widget.imagePicFn(_image);
   }
 
